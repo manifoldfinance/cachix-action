@@ -35,11 +35,6 @@
     "outDir": "./dist",
     "types": [
       "@types/node"
-    ],
-    "plugins": [
-      {
-        "name": "typescript-eslint-language-service"
-      }
     ]
   },
   "include": [

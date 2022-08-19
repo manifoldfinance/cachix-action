@@ -1,0 +1,17 @@
+# GitHub Action Definition 
+name: 'cachix-action'
+description: 'Cachix  for Nix'
+author: 'Cachix Contributors'
+branding:
+  icon: play-circle
+  color: black
+inputs:
+  version:
+    description: |
+      Cachix
+      With a simple configuration using Cachix, you’ll never have to build any derivation twice and share them with all your developers.
+      After each job, just built derivations are pushed to your binary cache.
+      Before each job, derivations to be built are first substituted (if they exist) from your binary cache.
+runs:
+  using: node16
+  main: dist/main/index.js
