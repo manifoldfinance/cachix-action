@@ -5,9 +5,9 @@
     "indentSize": 2
   },
   "compilerOptions": {
-    "allowSyntheticDefaultImports": false,
+    "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "tsBuildInfoFile": "./",
     "forceConsistentCasingInFileNames": true,
     "strictPropertyInitialization": true,
