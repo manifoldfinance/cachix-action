@@ -11,4 +11,4 @@ if [[ $pathsToPush == "" ]]; then
     fi
 fi
 
-echo "$pathsToPush" | "$cachix" push $cachixArgs "$cache"
+echo "$pathsToPush" | "$cachix" push "$cachixArgs" "$cache"
